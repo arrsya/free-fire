@@ -1,4 +1,4 @@
-mkdir -p .devcontainer
+fmkdir -p .devcontainer
 cat <<EOL > .devcontainer/devcontainer.json
 {
     "name": "My Codespace",
@@ -8,7 +8,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/sahil/sahil.py",
+    "postStartCommand": "python3 /workspaces/free-fire/sahil.py",
     "customizations": {
         "vscode": {
             "settings": {
